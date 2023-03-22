@@ -16,10 +16,13 @@ $font-family: helvetica, san-serif;
 
   .display {
     background-color: $secondary-color;
-    text-align: right;
-    padding: 1.5rem 0.2rem;
+    height: 4.2rem;
+    padding-right: 0.2rem;
     color: $primary-color;
     font-size: 1.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: end;
   }
 
   .operators {

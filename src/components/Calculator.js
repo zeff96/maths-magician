@@ -28,7 +28,7 @@ const Calculator = () => {
   return (
     <div className="calculator">
       <div className="display">
-        {total || 0}
+        {total}
         {operation}
         {next}
       </div>
