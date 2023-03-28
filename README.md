@@ -70,6 +70,7 @@ Basic website that allows users to perform mathematical operations on the websit
 
 ```sh
   use git bash to open in Vs code;
+  use npm start to run in web browser
 ```
 
 ### Run tests
@@ -85,8 +86,7 @@ We use Linters for REACT/REDUX to cheack this project.
 
 ## Future Features:
 
-- Add navigations
-- Make it responsive
+- Make it responsive across all devices
 
 ## 🤝 Contributing
 
