@@ -1,0 +1,33 @@
+.nav-container {
+  display: flex;
+  align-items: center;
+  width: 90%;
+  justify-content: space-between;
+  height: 7.2rem;
+  margin: 0 auto;
+  font-family: Helvetica, sans-serif;
+  font-size: 2rem;
+}
+
+.nav-title {
+  font-weight: 400;
+}
+
+.nav {
+  display: flex;
+  gap: 2rem;
+}
+
+.nav-item {
+  list-style: none;
+}
+
+.one,
+.two {
+  border-right: 2px solid;
+  padding-right: 1rem;
+}
+
+.active {
+  color: rgb(71, 133, 219);
+}

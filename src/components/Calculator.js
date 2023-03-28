@@ -26,49 +26,52 @@ const Calculator = () => {
   };
 
   return (
-    <div className="calculator">
-      <div className="display">
-        {total}
-        {operation}
-        {next}
-      </div>
-      <div className="operators">
-        <div className="top">
-          <button type="button" onClick={handleClick}>
-            AC
-          </button>
-          <button type="button" onClick={handleClick}>
-            +/-
-          </button>
-          <button type="button" onClick={handleClick}>
-            %
-          </button>
+    <div className="wrapper">
+      <h2>Let&#39;s do some maths!</h2>
+      <div className="calculator">
+        <div className="display">
+          {total}
+          {operation}
+          {next}
         </div>
-        <div className="side">
-          <button type="button" onClick={handleClick}>
-            ÷
-          </button>
-          <button type="button" onClick={handleClick}>
-            x
-          </button>
-          <button type="button" onClick={handleClick}>
-            -
-          </button>
-          <button type="button" onClick={handleClick}>
-            +
-          </button>
-          <button type="button" onClick={handleClick}>
-            =
-          </button>
-        </div>
-        <div className="digits">
-          <Digits />
-          <button className="zero" type="button" onClick={handleClick}>
-            0
-          </button>
-          <button type="button" onClick={handleClick}>
-            .
-          </button>
+        <div className="operators">
+          <div className="top">
+            <button type="button" onClick={handleClick}>
+              AC
+            </button>
+            <button type="button" onClick={handleClick}>
+              +/-
+            </button>
+            <button type="button" onClick={handleClick}>
+              %
+            </button>
+          </div>
+          <div className="side">
+            <button type="button" onClick={handleClick}>
+              ÷
+            </button>
+            <button type="button" onClick={handleClick}>
+              x
+            </button>
+            <button type="button" onClick={handleClick}>
+              -
+            </button>
+            <button type="button" onClick={handleClick}>
+              +
+            </button>
+            <button type="button" onClick={handleClick}>
+              =
+            </button>
+          </div>
+          <div className="digits">
+            <Digits />
+            <button className="zero" type="button" onClick={handleClick}>
+              0
+            </button>
+            <button type="button" onClick={handleClick}>
+              .
+            </button>
+          </div>
         </div>
       </div>
     </div>
