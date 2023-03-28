@@ -10,8 +10,22 @@ $font-family: helvetica, san-serif;
   font-family: $font-family;
 }
 
+.wrapper {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  gap: 10rem;
+  padding-top: 7.2rem;
+  justify-content: space-between;
+}
+
+.wrapper h2 {
+  font-size: 2rem;
+  font-weight: 400;
+}
+
 .calculator {
-  width: 30rem;
+  width: 50rem;
   box-shadow: 0 3px 8px rgba(0, 0, 0, 0.5);
 
   .display {

@@ -19,7 +19,7 @@ const Quotes = () => {
         return res.json();
       })
       .then((data) => {
-        const body = `${data[0].quote} by ${data[0].author}`;
+        const body = `${data[0].quote}  -${data[0].author}`;
         setPost(body);
         isPending(false);
         showError(null);
