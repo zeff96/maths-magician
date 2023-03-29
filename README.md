@@ -75,7 +75,12 @@ Basic website that allows users to perform mathematical operations on the websit
 
 ### Run tests
 
-We use Linters for REACT/REDUX to cheack this project.
+We use Linters for REACT/REDUX to check this project.
+We use jest to perform unit test on this project
+
+```sh
+  run npm test to start jest test
+```
 
 ## Authors
 
@@ -83,6 +88,10 @@ We use Linters for REACT/REDUX to cheack this project.
 
 - GitHub: [zeff96](https://github.com/zeff96)
 - LinkedIn: [zeffo96](https://www.linkedin.com/in/zeff-adeka-28060820a/)
+
+👤 **Okolo Oshoke**
+
+- GitHub: [lorenzoworx ](https://github.com/lorenzoworx)
 
 ## Future Features:
 
