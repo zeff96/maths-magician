@@ -1,5 +1,5 @@
 import { render, screen } from '@testing-library/react';
-import { Route } from 'react-router-dom';
+import { Route, MemoryRouter } from 'react-router-dom';
 import Calculator from '../components/Calculator';
 import HomePage from '../components/Home';
 import Navlinks from '../components/Navbar';
@@ -25,6 +25,15 @@ describe('component test', () => {
       ); const header = screen.getByText(/Maths Magician/i);
       expect(header).toMatchSnapshot();
     </Route>;
+  });
+  it('simulate user click event', () => {
+    <MemoryRouter>
+      render(
+      <Navlinks />
+      ) const linkEl = screen.getByText(/home/i);
+      fireEvent.click(linkEl); expect(getByText(/Welcome to our
+      page!/i)).toBeInTheDocument();
+    </MemoryRouter>;
   });
 
   it('renders a div element with class name "quotes"', async () => {
