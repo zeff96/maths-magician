@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`component test render calculator title 1`] = `
+<h2>
+  Let's do some maths!
+</h2>
+`;
+
+exports[`component test render home title 1`] = `
+<h2
+  class="home-title"
+>
+  Welcome to our page!
+</h2>
+`;
+
+exports[`component test renders a div element with class name "quotes" 1`] = `
+<div
+  class="quotes"
+  data-testid="quotes"
+>
+  <div>
+    Loading...
+  </div>
+</div>
+`;
