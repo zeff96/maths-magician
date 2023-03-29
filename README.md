@@ -82,6 +82,10 @@ We use jest to perform unit test on this project
   run npm test to start jest test
 ```
 
+## Deployment
+
+[Live](https://maths-magician-d96z.onrender.com/)
+
 ## Authors
 
 👤 **Adeka Zeffs**
