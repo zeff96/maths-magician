@@ -30,7 +30,7 @@ const Quotes = () => {
       });
   }, []);
   return (
-    <div className="quotes">
+    <div className="quotes" data-testid="quotes">
       {error && <div>{error}</div>}
       {pending && <div>Loading...</div>}
       {post && <div>{post}</div>}
