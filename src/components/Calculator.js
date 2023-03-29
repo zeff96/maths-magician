@@ -29,7 +29,7 @@ const Calculator = () => {
     <div className="wrapper">
       <h2>Let&#39;s do some maths!</h2>
       <div className="calculator">
-        <div className="display">
+        <div className="display" data-testid="display">
           {total}
           {operation}
           {next}
@@ -59,7 +59,7 @@ const Calculator = () => {
             <button type="button" onClick={handleClick}>
               +
             </button>
-            <button type="button" onClick={handleClick}>
+            <button data-testid="result" type="button" onClick={handleClick}>
               =
             </button>
           </div>
